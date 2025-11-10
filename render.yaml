@@ -3,7 +3,7 @@ services:
     name: face-recognition-api
     env: python
     buildCommand: |
-      pip install --upgrade pip setuptools wheel
+      pip install --upgrade 
       pip install cmake
       pip install dlib==19.24.2
       pip install -r requirements.txt
